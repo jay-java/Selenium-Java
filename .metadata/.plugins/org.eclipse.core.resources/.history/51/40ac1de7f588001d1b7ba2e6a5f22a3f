@@ -1,0 +1,17 @@
+package com.intro.SeleniumIntroduction;
+
+public class App {
+	public static void main(String[] args) {
+		String v ="car";
+		String c = "red";
+		if(v.equals("car")) {
+			System.out.println("vehicle is car");
+			if(c.equals("red")) {
+				System.out.println("fast");
+			}
+		}
+		else {
+			System.out.println("vehicle is not car");
+		}
+	}
+}

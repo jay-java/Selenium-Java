@@ -1,0 +1,9 @@
+package com.intro.SeleniumIntroduction;
+
+public class App {
+	public static void main(String[] args) {
+		String v ="car";
+		String c = "red";
+		
+	}
+}
