@@ -4,4 +4,13 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="io.netty.handler.codec.socksx.v5.DefaultSocks5InitialRequest"/>
+    <fullyQualifiedTypeName name="net.bytebuddy.utility.RandomString"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.events.WebDriverEventListener"/>
+    <fullyQualifiedTypeName name="javax.sound.sampled.LineListener"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

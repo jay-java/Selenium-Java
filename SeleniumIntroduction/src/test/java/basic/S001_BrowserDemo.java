@@ -34,7 +34,7 @@ public class S001_BrowserDemo {
 		else {
 			System.out.println("failed");
 		}
-//		driver.close();
+		driver.close();
 
 //		Firefox
 //		System.setProperty("webdriver.gecko.driver", "D:\\Java Seleenium\\geckodriver-v0.32.0-win64\\geckodriver.exe");

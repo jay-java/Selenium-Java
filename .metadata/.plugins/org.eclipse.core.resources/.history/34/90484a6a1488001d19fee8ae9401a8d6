@@ -1,7 +1,0 @@
-package basic;
-
-public class S001_BrowserDemo {
-	public static void main(String[] args) {
-		 System.setProperty("webdriver.chrome.driver", "\"D:\\Java Seleenium\\chromedriver_win32\\chromedriver.exe\"");
-	}
-}
