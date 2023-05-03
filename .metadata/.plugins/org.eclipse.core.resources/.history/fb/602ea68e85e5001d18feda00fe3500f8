@@ -1,0 +1,14 @@
+package core;
+class CustomerException{
+	int accno;
+	double balance;
+	public void setBalance(int accno,double balance) {
+		this.accno=accno;
+		this.balance=balance;
+	}
+}
+public class Custom {
+	public static void main(String[] args) {
+		
+	}
+}

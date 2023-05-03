@@ -1,0 +1,28 @@
+package core;
+class CustomerException extends Exception{
+	String msg="insufficient balance";
+	CustomerException(String msg){
+		this.msg=msg;
+	}
+	int accno;
+	double balance;
+	double amount;
+	public void setBalance(int accno,double balance) {
+		this.accno=accno;
+		this.balance=balance;
+	}
+	public double withdraw(double amount) {
+		if(balance>amount) {
+			this.balance = this.balance-amount;
+			return balance;
+		}
+		else {
+			throw new CustomerException(msg);
+		}
+	}
+}
+public class Custom {
+	public static void main(String[] args) {
+		
+	}
+}
