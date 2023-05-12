@@ -1,7 +1,0 @@
-package core;
-abstract class Parent{
-	abstract public void message();
-}
-public class abs {
-
-}
