@@ -1,0 +1,17 @@
+package basic;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CalenderData {
+	public static void main(String[] args) {
+		String url = "https://www.globalsqa.com/demo-site/datepicker/";
+		WebDriver driver = DriverConnection.getConnection(url);
+		
+		driver.findElement(By.className("resp-tabs-container"));
+		
+//		WebElement date = driver.findElement(By.id("datepicker"));
+//		date.click();
+	}
+}
