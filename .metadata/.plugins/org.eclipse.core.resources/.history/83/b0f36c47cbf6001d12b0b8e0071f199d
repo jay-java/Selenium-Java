@@ -1,0 +1,19 @@
+package basic;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class DragAndDrop {
+	public static void main(String[] args) {
+		String url = "https://www.globalsqa.com/demo-site/draganddrop/";
+		WebDriver driver = DriverConnection.getConnection(url);
+		
+		WebElement from = driver.findElement(By.xpath("//*[@id=\"gallery\"]/li[1]/img"));
+		WebElement to = driver.findElement(By.xpath("//*[@id=\"trash\"]"));
+		
+		
+		
+		
+	}
+}

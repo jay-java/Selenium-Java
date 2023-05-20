@@ -1,0 +1,19 @@
+package basic;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class PracticeForm {
+	public static void main(String[] args) {
+		String url ="https://demoqa.com/automation-practice-form";
+		WebDriver driver = DriverConnection.getConnection(url);
+		driver.findElement(By.id("firstName")).sendKeys("jay");
+		driver.findElement(By.id("lastName")).sendKeys("prajapati");
+		driver.findElement(By.id("userEmail")).sendKeys("jay@gmail.com");
+		List<WebElement> gender = driver.findElements(By.name("gender"));
+		System.out.println(gender.get(0));
+	}
+}

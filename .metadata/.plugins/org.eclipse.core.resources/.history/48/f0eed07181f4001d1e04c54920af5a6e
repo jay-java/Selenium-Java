@@ -1,0 +1,15 @@
+package basic;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class PracticeForm {
+	public static void main(String[] args) {
+		String url ="https://demoqa.com/automation-practice-form";
+		WebDriver driver = DriverConnection.getConnection(url);
+		driver.findElement(By.id("firstname")).sendKeys("jay");
+		driver.findElement(By.id("lastname")).sendKeys("prajapati");
+		driver.findElement(By.id("email")).sendKeys("jay@gmail.com");
+		
+	}
+}

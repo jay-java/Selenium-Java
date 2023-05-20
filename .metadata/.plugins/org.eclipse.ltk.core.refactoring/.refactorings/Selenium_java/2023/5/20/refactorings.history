@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;basic.GragAndDrop&apos; to &apos;DragAndDrop&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_java&apos;&#x0D;&#x0A;- Original element: &apos;basic.GragAndDrop&apos;&#x0D;&#x0A;- Renamed element: &apos;basic.DragAndDrop&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GragAndDrop&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;basic{GragAndDrop.java[GragAndDrop" matchStrategy="1" name="DragAndDrop" qualified="false" references="true" similarDeclarations="false" stamp="1684558817931" textual="false" version="1.0"/>
+</session>

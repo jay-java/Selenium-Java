@@ -36,7 +36,7 @@ public class CalenderData {
 				driver.findElement(By.xpath("//a[@data-handler='prev']/span")).click();
 			}
 		}
-		
+
 		while (!myMonth.equals(driver.findElement(By.className("ui-datepicker-month")).getText())) {
 			if (y1 > y2) {
 				driver.findElement(By.xpath("//a[@data-handler='next']/span")).click();
@@ -45,9 +45,9 @@ public class CalenderData {
 			}
 		}
 		List<WebElement> dates = driver.findElements(By.xpath("//table/tbody/tr/td/a"));
-		for(WebElement date: dates) {
+		for (WebElement date : dates) {
 			String dt = date.getText();
-			if(dt.equals(myDate)) {
+			if (dt.equals(myDate)) {
 				date.click();
 			}
 		}

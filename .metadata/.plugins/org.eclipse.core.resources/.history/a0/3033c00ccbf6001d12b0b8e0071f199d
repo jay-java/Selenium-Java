@@ -1,0 +1,15 @@
+package basic;
+
+import org.openqa.selenium.WebDriver;
+
+public class GragAndDrop {
+	public static void main(String[] args) {
+		String url = "https://www.globalsqa.com/demo-site/draganddrop/";
+		WebDriver driver = DriverConnection.getConnection(url);
+		
+		
+		
+		
+		
+	}
+}
