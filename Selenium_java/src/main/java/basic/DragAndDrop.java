@@ -19,7 +19,5 @@ public class DragAndDrop {
 		Actions action = new Actions(driver);
 		action.clickAndHold(from).moveToElement(to).release().build().perform();
 		
-		
-		
 	}
 }

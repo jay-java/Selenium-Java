@@ -1,0 +1,7 @@
+package basic;
+
+public class PartialLinkText {
+	public static void main(String[] args) {
+		String url="";
+	}
+}

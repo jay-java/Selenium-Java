@@ -1,0 +1,19 @@
+package basic;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+
+public class CheckBox {
+	public static void main(String[] args) {
+		String url="https://demoqa.com/automation-practice-form";
+		WebDriver driver = DriverConnection.getConnection(url);
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		
+		
+		driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']")).click();
+		driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\jay-pc\\Downloads\\website.jpg");
+		driver.findElement(By.id("currentAddress")).sendKeys("ahmedabad");
+	}
+}

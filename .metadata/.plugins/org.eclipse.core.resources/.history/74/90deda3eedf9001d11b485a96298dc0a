@@ -1,0 +1,11 @@
+package basic;
+
+import org.openqa.selenium.WebDriver;
+
+public class CheckBox {
+	public static void main(String[] args) {
+		String url="https://demoqa.com/automation-practice-form";
+		WebDriver driver = DriverConnection.getConnection(url);
+		
+	}
+}
