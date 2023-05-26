@@ -1,0 +1,9 @@
+package junit_framework;
+
+public class UnitTestDemo {
+	
+	public void test1() {
+		System.out.println("test 1 running");
+	}
+	
+}

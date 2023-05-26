@@ -1,0 +1,9 @@
+package basic;
+
+public class Addition {
+	
+	public void add() {
+		int i=10;
+	}
+	
+}

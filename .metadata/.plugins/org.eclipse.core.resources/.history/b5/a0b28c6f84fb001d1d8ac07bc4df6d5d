@@ -1,0 +1,7 @@
+package junit_framework;
+
+public class J_002_Exception {
+	public void run() {
+		
+	}
+}

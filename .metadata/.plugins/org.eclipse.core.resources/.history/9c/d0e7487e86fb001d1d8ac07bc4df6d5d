@@ -1,0 +1,39 @@
+package junit_framework;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import basic.Addition;
+
+public class J_003_ParameterizedTest {
+	
+	int a;
+	int b;
+	int res;
+	
+	public J_003_ParameterizedTest(int a, int b, int res) {
+		super();
+		this.a = a;
+		this.b = b;
+		this.res = res;
+	}
+
+	@Test
+	public void testAddition() {
+		Addition aa = new Addition();
+		int actual = aa.add(a,b);
+		int expected = res;
+		assertEquals(expected, actual);
+	}
+	
+	public static List<Object> getData(){
+		
+		Object obj[][] = new Object[][]();
+		
+	}
+	
+	
+}

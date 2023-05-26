@@ -1,0 +1,24 @@
+package junit_framework;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import basic.Addition;
+
+public class J_003_ParameterizedTest {
+	
+	int a;
+	int b;
+	int res;
+	
+	@Test
+	public void testAddition() {
+		Addition aa = new Addition();
+		int actual = aa.add(a,b);
+		int expected = 40;
+		assertEquals(expected, actual);
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package junit_framework;
+
+import org.junit.Test;
+
+public class J_001_Addition {
+	@Test
+	public void testAddition() {
+		
+	}
+}

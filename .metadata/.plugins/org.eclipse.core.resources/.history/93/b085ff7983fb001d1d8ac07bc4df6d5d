@@ -1,0 +1,13 @@
+package junit_framework;
+
+import org.junit.Test;
+
+import basic.Addition;
+
+public class J_001_Addition {
+	@Test
+	public void testAddition() {
+		Addition a = new Addition();
+		int actual = a.add(10,20);
+	}
+}

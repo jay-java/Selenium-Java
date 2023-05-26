@@ -1,0 +1,12 @@
+package basic;
+
+public class Addition {
+	
+	public int add() {
+		int i=10;
+		int j =20;
+		int res = i+j;
+		return res;
+	}
+	
+}
