@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="18" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-29T11:03:41 IST" name="Suite" finished-at="2023-05-29T11:03:41 IST" duration-ms="98">
+    <groups>
+      <group name="smoke">
+        <method signature="CartManage.addtocart()[pri:0, instance:testNG.TestNg_Learning.CartManage@72f926e6]" name="addtocart" class="testNG.TestNg_Learning.CartManage"/>
+        <method signature="IndexPage.register()[pri:1, instance:testNG.TestNg_Learning.IndexPage@294425a7]" name="register" class="testNG.TestNg_Learning.IndexPage"/>
+      </group> <!-- smoke -->
+      <group name="purchase">
+        <method signature="CartManage.addtocart()[pri:0, instance:testNG.TestNg_Learning.CartManage@72f926e6]" name="addtocart" class="testNG.TestNg_Learning.CartManage"/>
+        <method signature="IndexPage.login()[pri:2, instance:testNG.TestNg_Learning.IndexPage@647e447]" name="login" class="testNG.TestNg_Learning.IndexPage"/>
+        <method signature="Payment.creditCard()[pri:0, instance:testNG.TestNg_Learning.Payment@41fbdac4]" name="creditCard" class="testNG.TestNg_Learning.Payment"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-05-29T11:03:41 IST" name="Test1" finished-at="2023-05-29T11:03:41 IST" duration-ms="46">
+      <class name="testNG.TestNg_Learning.CartManage">
+        <test-method signature="addtocart()[pri:0, instance:testNG.TestNg_Learning.CartManage@72f926e6]" started-at="2023-05-29T11:03:41 IST" name="addtocart" finished-at="2023-05-29T11:03:41 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+      </class> <!-- testNG.TestNg_Learning.CartManage -->
+      <class name="testNG.TestNg_Learning.IndexPage">
+        <test-method signature="login()[pri:2, instance:testNG.TestNg_Learning.IndexPage@647e447]" started-at="2023-05-29T11:03:41 IST" name="login" finished-at="2023-05-29T11:03:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testNG.TestNg_Learning.IndexPage -->
+      <class name="testNG.TestNg_Learning.Payment">
+        <test-method signature="creditCard()[pri:0, instance:testNG.TestNg_Learning.Payment@41fbdac4]" started-at="2023-05-29T11:03:41 IST" name="creditCard" finished-at="2023-05-29T11:03:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCard -->
+      </class> <!-- testNG.TestNg_Learning.Payment -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-05-29T11:03:41 IST" name="smoke" finished-at="2023-05-29T11:03:41 IST" duration-ms="3">
+      <class name="testNG.TestNg_Learning.IndexPage">
+        <test-method signature="register()[pri:1, instance:testNG.TestNg_Learning.IndexPage@294425a7]" started-at="2023-05-29T11:03:41 IST" name="register" finished-at="2023-05-29T11:03:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- testNG.TestNg_Learning.IndexPage -->
+    </test> <!-- smoke -->
+  </suite> <!-- Suite -->
+</testng-results>

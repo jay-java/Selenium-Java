@@ -31,6 +31,7 @@
 			<item value="basic"/>
 		</list>
 		<list key="artifactId">
+			<item value="testNGDemo"/>
 			<item value="Selenium_java"/>
 		</list>
 		<list key="projectNameTemplate">

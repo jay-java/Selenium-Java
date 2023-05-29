@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+  	<groups>
+  		<run>
+  			<include name="purchase"></include>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="testNG.TestNg_Learning.CartManage"/>
+      <class name="testNG.TestNg_Learning.IndexPage"/>
+      <class name="testNG.TestNg_Learning.Payment"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="smoke">
+  	<groups>
+  		<run>
+  			<include name="smoke"></include>
+  			<exclude name="purchase"></exclude>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="testNG.TestNg_Learning.CartManage"/>
+      <class name="testNG.TestNg_Learning.IndexPage"/>
+      <class name="testNG.TestNg_Learning.Payment"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
