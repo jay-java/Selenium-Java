@@ -23,6 +23,7 @@ public class AjaxCall {
 			.pause(Duration.ofSeconds(5))
 			.sendKeys(Keys.ARROW_DOWN)
 			.sendKeys(Keys.ENTER)
+			.contextClick()
 			.build()
 			.perform();
 	}

@@ -1,7 +1,0 @@
-package basic;
-
-public class ScreeenShot {
-	public static void main(String[] args) {
-		String url="";
-	}
-}

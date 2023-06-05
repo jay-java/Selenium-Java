@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="14" total="18" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-29T11:03:41 IST" name="Suite" finished-at="2023-05-29T11:03:41 IST" duration-ms="98">
+  <suite started-at="2023-06-05T11:59:41 IST" name="Suite" finished-at="2023-06-05T11:59:44 IST" duration-ms="2861">
     <groups>
-      <group name="smoke">
-        <method signature="CartManage.addtocart()[pri:0, instance:testNG.TestNg_Learning.CartManage@72f926e6]" name="addtocart" class="testNG.TestNg_Learning.CartManage"/>
-        <method signature="IndexPage.register()[pri:1, instance:testNG.TestNg_Learning.IndexPage@294425a7]" name="register" class="testNG.TestNg_Learning.IndexPage"/>
-      </group> <!-- smoke -->
-      <group name="purchase">
-        <method signature="CartManage.addtocart()[pri:0, instance:testNG.TestNg_Learning.CartManage@72f926e6]" name="addtocart" class="testNG.TestNg_Learning.CartManage"/>
-        <method signature="IndexPage.login()[pri:2, instance:testNG.TestNg_Learning.IndexPage@647e447]" name="login" class="testNG.TestNg_Learning.IndexPage"/>
-        <method signature="Payment.creditCard()[pri:0, instance:testNG.TestNg_Learning.Payment@41fbdac4]" name="creditCard" class="testNG.TestNg_Learning.Payment"/>
-      </group> <!-- purchase -->
     </groups>
-    <test started-at="2023-05-29T11:03:41 IST" name="Test1" finished-at="2023-05-29T11:03:41 IST" duration-ms="46">
-      <class name="testNG.TestNg_Learning.CartManage">
-        <test-method signature="addtocart()[pri:0, instance:testNG.TestNg_Learning.CartManage@72f926e6]" started-at="2023-05-29T11:03:41 IST" name="addtocart" finished-at="2023-05-29T11:03:41 IST" duration-ms="11" status="PASS">
+    <test started-at="2023-06-05T11:59:41 IST" name="Test" finished-at="2023-06-05T11:59:44 IST" duration-ms="2861">
+      <class name="listenerPractical.PracticalTestListener">
+        <test-method signature="testTitle(org.testng.ITestContext)[pri:0, instance:listenerPractical.PracticalTestListener@4ac3c60d]" started-at="2023-06-05T11:59:41 IST" name="testTitle" finished-at="2023-06-05T11:59:44 IST" duration-ms="2645" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77c2494c]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FB] but found [Facebook – log in or sign up]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FB] but found [Facebook – log in or sign up]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at listenerPractical.PracticalTestListener.testTitle(PracticalTestListener.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addtocart -->
-      </class> <!-- testNG.TestNg_Learning.CartManage -->
-      <class name="testNG.TestNg_Learning.IndexPage">
-        <test-method signature="login()[pri:2, instance:testNG.TestNg_Learning.IndexPage@647e447]" started-at="2023-05-29T11:03:41 IST" name="login" finished-at="2023-05-29T11:03:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testNG.TestNg_Learning.IndexPage -->
-      <class name="testNG.TestNg_Learning.Payment">
-        <test-method signature="creditCard()[pri:0, instance:testNG.TestNg_Learning.Payment@41fbdac4]" started-at="2023-05-29T11:03:41 IST" name="creditCard" finished-at="2023-05-29T11:03:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditCard -->
-      </class> <!-- testNG.TestNg_Learning.Payment -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-05-29T11:03:41 IST" name="smoke" finished-at="2023-05-29T11:03:41 IST" duration-ms="3">
-      <class name="testNG.TestNg_Learning.IndexPage">
-        <test-method signature="register()[pri:1, instance:testNG.TestNg_Learning.IndexPage@294425a7]" started-at="2023-05-29T11:03:41 IST" name="register" finished-at="2023-05-29T11:03:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register -->
-      </class> <!-- testNG.TestNg_Learning.IndexPage -->
-    </test> <!-- smoke -->
+        </test-method> <!-- testTitle -->
+      </class> <!-- listenerPractical.PracticalTestListener -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

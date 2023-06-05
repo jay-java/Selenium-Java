@@ -1,4 +1,4 @@
-!SESSION 2023-05-29 10:04:56.992 -----------------------------------------------
+!SESSION 2023-06-05 11:46:23.752 -----------------------------------------------
 eclipse.buildId=4.24.0.I20220607-0700
 java.version=18.0.2.1
 java.vendor=Oracle Corporation
@@ -6,10 +6,10 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-This is a continuation of log file C:\Users\jay-pc\Selenium\.metadata\.bak_2.log
-Created Time: 2023-05-29 11:01:32.277
+This is a continuation of log file C:\Users\jay-pc\Selenium\.metadata\.bak_0.log
+Created Time: 2023-06-05 11:59:30.731
 
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.278
+!ENTRY org.eclipse.ui 4 0 2023-06-05 11:59:30.732
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
@@ -45,295 +45,7 @@ java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.281
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.293
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.300
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.308
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.340
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.348
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.356
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:32.364
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:35.286
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 11:59:31.369
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
@@ -344,331 +56,7 @@ java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.149
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.216
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.218
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.220
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.228
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.237
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.244
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.252
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:36.261
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:37.461
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 11:59:33.321
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
@@ -679,7 +67,7 @@ java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:39.153
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 11:59:34.517
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
@@ -690,7 +78,7 @@ java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:41.627
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 11:59:36.705
 !MESSAGE An internal error occurred during: "Requesting Java AST from selection".
 !STACK 0
 java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
@@ -701,734 +89,698 @@ java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
 	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:42.593
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.901
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.908
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.916
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.924
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.932
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.940
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.948
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.964
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.972
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.980
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.988
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:42.997
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:43.005
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.ui 4 0 2023-05-29 11:01:43.022
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
-	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
-	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:44.601
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:45.529
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:47.718
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:48.543
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:50.198
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:53.297
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:01:55.917
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:02:26.951
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:02:29.517
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:02:30.126
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:02:31.476
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:02:32.479
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:02:34.006
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:02:34.786
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:03:17.384
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:03:18.476
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:03:19.596
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:03:20.866
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.core.jobs 4 2 2023-05-29 11:03:25.718
-!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
-!STACK 0
-java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
-	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
-	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.testng.eclipse 1 0 2023-05-29 11:03:40.972
+!ENTRY org.testng.eclipse 1 0 2023-06-05 11:59:40.972
 !MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
-  Classpath: C:\Users\jay-pc\eclipse\jee-2022-06\eclipse\configuration\org.eclipse.osgi\1166\0\.cp\lib\testng-remote.jar C:\Users\jay-pc\Selenium\TestNg_Learning\target\test-classes C:\Users\jay-pc\Selenium\TestNg_Learning\target\classes C:\Users\jay-pc\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\jay-pc\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\jay-pc\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\jay-pc\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\jay-pc\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar C:\Users\jay-pc\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar C:\Users\jay-pc\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\jay-pc\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\jay-pc\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\jay-pc\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\jay-pc\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\jay-pc\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\jay-pc\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar C:\Users\jay-pc\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar C:\Users\jay-pc\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar C:\Users\jay-pc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar C:\Users\jay-pc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\jay-pc\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar C:\Users\jay-pc\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\jay-pc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\jay-pc\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\jay-pc\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\jay-pc\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar
+  Classpath: C:\Users\jay-pc\eclipse\jee-2022-06\eclipse\configuration\org.eclipse.osgi\1166\0\.cp\lib\testng-remote.jar C:\Users\jay-pc\Selenium\TestNg_Learning\target\test-classes C:\Users\jay-pc\Selenium\TestNg_Learning\target\classes C:\Users\jay-pc\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\jay-pc\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\jay-pc\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\jay-pc\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar C:\Users\jay-pc\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar C:\Users\jay-pc\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar C:\Users\jay-pc\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\jay-pc\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\jay-pc\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\jay-pc\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\jay-pc\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\jay-pc\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\jay-pc\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar C:\Users\jay-pc\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar C:\Users\jay-pc\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar C:\Users\jay-pc\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar C:\Users\jay-pc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar C:\Users\jay-pc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\jay-pc\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar C:\Users\jay-pc\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar C:\Users\jay-pc\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar C:\Users\jay-pc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\jay-pc\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\jay-pc\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar C:\Users\jay-pc\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar C:\Users\jay-pc\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar
   VMArgs:    -ea
   Class:     org.testng.remote.RemoteTestNG
-  Args:      -serport 22230 -protocol json -d C:\Users\jay-pc\Selenium\TestNg_Learning\test-output C:\Users\jay-pc\Selenium\TestNg_Learning\PurchaseProduct.xml
-java -ea -classpath C:\Users\jay-pc\eclipse\jee-2022-06\eclipse\configuration\org.eclipse.osgi\1166\0\.cp\lib\testng-remote.jar:C:\Users\jay-pc\Selenium\TestNg_Learning\target\test-classes:C:\Users\jay-pc\Selenium\TestNg_Learning\target\classes:C:\Users\jay-pc\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\jay-pc\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\jay-pc\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\jay-pc\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\jay-pc\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar:C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar:C:\Users\jay-pc\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar:C:\Users\jay-pc\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\jay-pc\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\jay-pc\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\jay-pc\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\jay-pc\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\jay-pc\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\jay-pc\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar:C:\Users\jay-pc\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar:C:\Users\jay-pc\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar:C:\Users\jay-pc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar:C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:C:\Users\jay-pc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\jay-pc\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar:C:\Users\jay-pc\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\jay-pc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\jay-pc\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\jay-pc\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\jay-pc\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar org.testng.remote.RemoteTestNG -serport 22230 -protocol json -d C:\Users\jay-pc\Selenium\TestNg_Learning\test-output C:\Users\jay-pc\Selenium\TestNg_Learning\PurchaseProduct.xml
+  Args:      -serport 25994 -protocol json -d C:\Users\jay-pc\Selenium\TestNg_Learning\test-output C:\Users\jay-pc\Selenium\TestNg_Learning\fbtitltleLIstener.xml
+java -ea -classpath C:\Users\jay-pc\eclipse\jee-2022-06\eclipse\configuration\org.eclipse.osgi\1166\0\.cp\lib\testng-remote.jar:C:\Users\jay-pc\Selenium\TestNg_Learning\target\test-classes:C:\Users\jay-pc\Selenium\TestNg_Learning\target\classes:C:\Users\jay-pc\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\jay-pc\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\jay-pc\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\jay-pc\.p2\pool\plugins\org.yaml.snakeyaml_1.27.0.v20221112-0806.jar:C:\Users\jay-pc\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar:C:\Users\jay-pc\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar:C:\Users\jay-pc\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar:C:\Users\jay-pc\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\jay-pc\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\jay-pc\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\jay-pc\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\jay-pc\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\jay-pc\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\jay-pc\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar:C:\Users\jay-pc\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar:C:\Users\jay-pc\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar:C:\Users\jay-pc\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar:C:\Users\jay-pc\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar:C:\Users\jay-pc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar:C:\Users\jay-pc\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:C:\Users\jay-pc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:C:\Users\jay-pc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\jay-pc\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar:C:\Users\jay-pc\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar:C:\Users\jay-pc\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar:C:\Users\jay-pc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\jay-pc\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\jay-pc\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar:C:\Users\jay-pc\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar:C:\Users\jay-pc\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar org.testng.remote.RemoteTestNG -serport 25994 -protocol json -d C:\Users\jay-pc\Selenium\TestNg_Learning\test-output C:\Users\jay-pc\Selenium\TestNg_Learning\fbtitltleLIstener.xml
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 11:59:58.780
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 11:59:59.353
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:08.942
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:08.949
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:08.957
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:08.966
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.685
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.693
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.701
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.709
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.718
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.726
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.789
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.807
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-06-05 12:00:09.837
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:10.374
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:11.983
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:14.921
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:15.966
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:17.860
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:18.795
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:20.280
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:21.674
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:23.718
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:25.229
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:25.855
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:34.089
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:35.041
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:39.414
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:41.014
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:42.752
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:43.451
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-06-05 12:00:58.115
+!MESSAGE An internal error occurred during: "Requesting Java AST from selection".
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations(JavaEditor.java:3300)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.lambda$4(JavaEditor.java:3363)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:175)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
