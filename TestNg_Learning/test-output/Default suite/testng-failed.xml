@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listenerPractical.PracticalTestListener">
+      <class name="framework.DataDrivenDemo">
         <methods>
-          <include name="testTitle"/>
+          <include name="logintest"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- listenerPractical.PracticalTestListener -->
+      </class> <!-- framework.DataDrivenDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
