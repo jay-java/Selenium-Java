@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="ConfigTest" status="ERROR" monitorInterval="5">
+  <Appenders>
+ 
+    <SystemPropertyArbiter propertyName="env" propertyValue="dev">
+      <Console name="Out">
+        <PatternLayout pattern="%m%n"/>
+      </Console>
+    </SystemPropertyArbiter>
+    <SystemPropertyArbiter propertyName="env" propertyValue="prod">
+      <List name="Out">
+      </List>
+    </SystemPropertyArbiter>
+ 
+  </Appenders>
+  <Loggers>
+    <Root level="trace">
+      <AppenderRef ref="Out"/>
+    </Root>
+    <Logger name="Log4jDemo.test2Log" level="error" additivity="false">
+      <AppenderRef ref="Out"/>
+    </Logger>
+    <Logger name="Log4jDemo.logTestDemo" level="debug" additivity="false">
+      <AppenderRef ref="Out"/>
+    </Logger>
+  </Loggers>
+</Configuration>
