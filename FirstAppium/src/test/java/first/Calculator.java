@@ -3,7 +3,9 @@ package first;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.AppiumDriver;
@@ -13,7 +15,7 @@ public class Calculator {
 	
 	WebDriver wdriver;
 	
-	static AppiumDriver appDriver;
+	static AppiumDriver driver;
 	AndroidDriver aDriver;
 	
 	public static void main(String[] args) throws InterruptedException {
@@ -33,8 +35,8 @@ public class Calculator {
 		dc.setCapability("udid", "bb46e055");
 		dc.setCapability("platformName", "Android");
 		dc.setCapability("platformVersion", "10");
-		dc.setCapability("appPackage", "com.android2.calculator3");
-		dc.setCapability("appActivity", "com.xlythe.calculator.material.Calculator");
+		dc.setCapability("appPackage", "splits.splitstraining.dothesplits.spiltsin30days");
+		dc.setCapability("appActivity", "splits.splitstraining.dothesplits.splitsin30days.activities.SplashActivity");
 		
 		//for emulator
 //		dc.setCapability("automationName": "UIAutomator2"); 
@@ -43,7 +45,18 @@ public class Calculator {
 		
 //		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
-		appDriver = new AppiumDriver(url, dc);
+		driver = new AppiumDriver(url, dc);
+		
+//		WebElement three = driver.findElement(By.id("com.android2.calculator3:id/digit_3"));
+//		WebElement plus = driver.findElement(By.id("com.android2.calculator3:id/op_add"));
+//		WebElement six = driver.findElement(By.id("com.android2.calculator3:id/digit_6"));
+//		WebElement eq = driver.findElement(By.id("com.android2.calculator3:id/eq"));
+//		WebElement res = driver.findElement(By.id("com.android2.calculator3:id/formula"));
+//		three.click();
+//		plus.click();
+//		six.click();
+//		eq.click();
+//		String result = res.getText();
 		System.out.println("app started");
 		Thread.sleep(2000);
 		
